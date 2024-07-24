@@ -1,4 +1,4 @@
-package application;
+  package application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -54,7 +54,7 @@ public class Program {
 		
 		System.out.println();
 		System.out.print("Enter month and year to calculate income (MM/YYYY)");
-		String monthAndYear =sc.next();
+		String monthAndYear = sc.next();
 		
 		//RECORTE STRING  e CONVERTE PARA INTEIRO
 		int month = Integer.parseInt( monthAndYear.substring(0, 2)); //cria uma subString
